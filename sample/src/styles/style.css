@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+}
+
+/* Common container */
+.container {
+    width: 360px;
+    margin: 80px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Links / text buttons */
+p {
+    margin-top: 15px;
+    text-align: center;
+    color: #007bff;
+    cursor: pointer;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+/* Student list */
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+li {
+    padding: 8px;
+    margin-bottom: 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Dashboard buttons spacing */
+.container button + button {
+    margin-top: 12px;
+}
